@@ -140,8 +140,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4652114, y: 0.7121744, z: 0.8454808}
-  m_Center: {x: 0.016836643, y: 0.39268655, z: -0.017104506}
+  m_Size: {x: 1.2821732, y: 0.7121744, z: 0.5766041}
+  m_Center: {x: -0.010421008, y: 0.39268655, z: 0.01904273}
 --- !u!1 &259335910
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -845,7 +845,7 @@ PrefabInstance:
     - target: {fileID: 1837324664885972820, guid: 1a1bfe1d674305e46a0b9a5ae32b5b17,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1837324664885972822, guid: 1a1bfe1d674305e46a0b9a5ae32b5b17,
         type: 3}
@@ -865,7 +865,7 @@ PrefabInstance:
     - target: {fileID: 1837324664885972822, guid: 1a1bfe1d674305e46a0b9a5ae32b5b17,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.036
+      value: -3.72
       objectReference: {fileID: 0}
     - target: {fileID: 1837324664885972822, guid: 1a1bfe1d674305e46a0b9a5ae32b5b17,
         type: 3}
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4f2c0214c9b494fa7eb5b8b2c02885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 1376501322}
   m_TurnUsage: 0
   m_Controllers:
   - {fileID: 1376501316}
@@ -1049,7 +1049,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
-  m_Radius: 0.5
+  m_Radius: 0.2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -2847,7 +2847,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1041658213}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1589743029843932836}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3234,7 +3235,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
