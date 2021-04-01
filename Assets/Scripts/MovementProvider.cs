@@ -50,7 +50,7 @@ public class MovementProvider : LocomotionProvider
     }
     private void ApplyGravity()
     {
-        Vector3 gravity = new Vector3(0, Physics.gravity.y * gravityMult,0  );
+        Vector3 gravity = new Vector3(0, Physics.gravity.y * gravityMult,0);
         gravity.y *= Time.deltaTime;
         characterController.Move(gravity * Time.deltaTime);
     }
@@ -68,7 +68,7 @@ public class MovementProvider : LocomotionProvider
 
     private void CheckForMovement(InputDevice device)
     {
-        if (device.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 poistion)) ;
+        if (device.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 poistion));
     }
 
     private void StartMove(Vector2 position)
