@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Home; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16191 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\UnityEditor\2020.2.2f1\Editor\Unity.exe
+D:\UnityEditor\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ D:/TPKGames/Final Projects/PistolMaster/PistolMaster
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51855
+51095
 Successfully changed project path to: D:/TPKGames/Final Projects/PistolMaster/PistolMaster
 D:/TPKGames/Final Projects/PistolMaster/PistolMaster
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 428.13 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 46.17 ms.
-Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path D:/UnityEditor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+Refreshing native plugins compatible for Editor in 126.81 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 3.31 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path D:/UnityEditor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/TPKGames/Final Projects/PistolMaster/PistolMaster/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -33,8 +33,722 @@ Direct3D:
     Driver:   27.21.14.6192
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'D:/UnityEditor/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'D:/UnityEditor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/UnityEditor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Mono path[0] = 'D:/UnityEditor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityEditor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityEditor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003018 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 89.12 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.797 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 126.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\TPKGames\Final Projects\PistolMaster\PistolMaster\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\TPKGames\Final Projects\PistolMaster\PistolMaster\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.209 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.7 MB.
+System memory in use after: 143.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3645.
+Total: 6.394700 ms (FindLiveObjects: 1.282300 ms CreateObjectMapping: 0.592300 ms MarkObjects: 4.417600 ms  DeleteObjects: 0.099500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ArmyRadio01.FBX
+  artifactKey: Guid(78877437649233c4eb3cc1a6bb32b34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ArmyRadio01.FBX using Guid(78877437649233c4eb3cc1a6bb32b34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372df1a770c8b29583c8eff837c19c00') in 4.472004 seconds
+  Import took 4.483467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_3.FBX
+  artifactKey: Guid(60bb3a0da9092ca4fb40cc30ca65395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_3.FBX using Guid(60bb3a0da9092ca4fb40cc30ca65395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f6b52d323050217cd19d4f171324ac') in 0.982106 seconds
+  Import took 0.989009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ArmyLaptop01.FBX
+  artifactKey: Guid(a34c319447d13fc4497d0e91824419af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ArmyLaptop01.FBX using Guid(a34c319447d13fc4497d0e91824419af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ca2daf5d3b324dc4bf2e753dca65b3') in 0.264282 seconds
+  Import took 0.271301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_1.FBX
+  artifactKey: Guid(9bd11d9a3ec41104aa6a514bf306a823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_1.FBX using Guid(9bd11d9a3ec41104aa6a514bf306a823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481170cc92f29f1d81428428aa863e30') in 0.913695 seconds
+  Import took 0.921033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ArmyRadio02.FBX
+  artifactKey: Guid(94ec9a71282b2684b8cb6a1909b6279f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ArmyRadio02.FBX using Guid(94ec9a71282b2684b8cb6a1909b6279f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c842b5efe4741b417d1416cd85729d85') in 0.092786 seconds
+  Import took 0.099248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan01_2.FBX
+  artifactKey: Guid(2a378d0b00a543a4da7996992d7256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan01_2.FBX using Guid(2a378d0b00a543a4da7996992d7256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26fa42e83249bc6e28140b25018f280') in 0.095797 seconds
+  Import took 0.102550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelPlastic01.FBX
+  artifactKey: Guid(0b29a37852647624788008ae54c883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelPlastic01.FBX using Guid(0b29a37852647624788008ae54c883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25e7e5d3820a5e133c92fb8178a6068') in 0.254064 seconds
+  Import took 0.260756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan01_3.FBX
+  artifactKey: Guid(bf8630d16e5a0d04186257f18d2d5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan01_3.FBX using Guid(bf8630d16e5a0d04186257f18d2d5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c612f7633e7d23bc8399fa1abbe718a2') in 0.099267 seconds
+  Import took 0.106783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan01_4.FBX
+  artifactKey: Guid(a6b264f69ba5fa04db91da43ff80178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan01_4.FBX using Guid(a6b264f69ba5fa04db91da43ff80178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f276d7373317fadbcd9d388d88f2739') in 0.089524 seconds
+  Import took 0.096456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan02_1.FBX
+  artifactKey: Guid(afee5426c7bb8d5428ca84ed3dfa2a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan02_1.FBX using Guid(afee5426c7bb8d5428ca84ed3dfa2a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fbcf2178a8707eb0a5323859632fbd') in 0.920436 seconds
+  Import took 0.927456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_4.FBX
+  artifactKey: Guid(d7fff02d436e56849b1cb49069e5cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_4.FBX using Guid(d7fff02d436e56849b1cb49069e5cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88d167d944bebe08f1066b0c292ffd3') in 0.899950 seconds
+  Import took 0.907051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning01_1.FBX
+  artifactKey: Guid(8acfb3f306e9f2c4583d378ca582be19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning01_1.FBX using Guid(8acfb3f306e9f2c4583d378ca582be19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6be2e6f08c520e1eac44a384980c5c') in 0.925964 seconds
+  Import took 0.932387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/ammoCan1.fbx
+  artifactKey: Guid(75126c1d019aa1b44920cdecd85bc74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/ammoCan1.fbx using Guid(75126c1d019aa1b44920cdecd85bc74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e674a256d0d874d0bdc6adda13e2a77b') in 0.149649 seconds
+  Import took 0.156936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning02_1.FBX
+  artifactKey: Guid(c7f2de40e2e4b4e4585cef7661ec5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning02_1.FBX using Guid(c7f2de40e2e4b4e4585cef7661ec5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d74ba047c1a711ee7c8616777d53293') in 0.984263 seconds
+  Import took 0.991348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierArm01_1.FBX
+  artifactKey: Guid(afb4d5e464cfdcf4c9664c59fbc23ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierArm01_1.FBX using Guid(afb4d5e464cfdcf4c9664c59fbc23ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6fe8849274fa41ab0567378145444e') in 0.185665 seconds
+  Import took 0.193009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelMetallic01_1.FBX
+  artifactKey: Guid(8162b9299e491f54f94070fb98f1a77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelMetallic01_1.FBX using Guid(8162b9299e491f54f94070fb98f1a77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b24199a27645763e478e6aeb304d5b5') in 0.263208 seconds
+  Import took 0.270002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelMetallic01_2.FBX
+  artifactKey: Guid(83264d3d34e59e14e935b199962ca22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelMetallic01_2.FBX using Guid(83264d3d34e59e14e935b199962ca22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d4980dfd8d306a0fdd6a6f58a8409b') in 0.264311 seconds
+  Import took 0.272019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan02_2.FBX
+  artifactKey: Guid(7cffaf47d54aaf14db92498af7f27bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_AmmoCan02_2.FBX using Guid(7cffaf47d54aaf14db92498af7f27bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657aae9f1ed8550598fc40343fba054c') in 0.924018 seconds
+  Import took 0.931597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning01_2.FBX
+  artifactKey: Guid(0033c716494d341499401842730c2f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning01_2.FBX using Guid(0033c716494d341499401842730c2f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c833a8e360f3450cec4a4dcda97032') in 0.953599 seconds
+  Import took 0.960562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierArm01_2.FBX
+  artifactKey: Guid(ad5671a6f9c32a343bbfb03a847cf5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierArm01_2.FBX using Guid(ad5671a6f9c32a343bbfb03a847cf5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9698d88ff12653baabcf0f6b2ec8e8b') in 0.215168 seconds
+  Import took 0.222689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning02_2.FBX
+  artifactKey: Guid(f93617be4a41cf44b8bc3f8037cced91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Awning02_2.FBX using Guid(f93617be4a41cf44b8bc3f8037cced91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a50e8c441040aa4b56394900ac9a5dc') in 0.886039 seconds
+  Import took 0.893163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Bag01.FBX
+  artifactKey: Guid(7cfdd52ced71f174f91a2d06d279eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Bag01.FBX using Guid(7cfdd52ced71f174f91a2d06d279eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652e6afab07c412091efcae2c42b1b20') in 0.251618 seconds
+  Import took 0.258172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelPlastic02.FBX
+  artifactKey: Guid(a833d03eafeaf5b4a9cf3cf185e2a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrelPlastic02.FBX using Guid(a833d03eafeaf5b4a9cf3cf185e2a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8179e7474f66a14644740d36d86bdd') in 0.233790 seconds
+  Import took 0.239702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_2.FBX
+  artifactKey: Guid(88339d0b1d489514984a4e991513a2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_2.FBX using Guid(88339d0b1d489514984a4e991513a2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4c1c9325a1c6d1e0451921c9655f1e') in 0.860660 seconds
+  Import took 0.867812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.340815 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_5.FBX
+  artifactKey: Guid(12df51c39e857e34f96670864b606e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_5.FBX using Guid(12df51c39e857e34f96670864b606e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4a840942625c8f3e77cae7c7745b95') in 0.821240 seconds
+  Import took 0.828004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_1.FBX
+  artifactKey: Guid(6be3c81e666e0d84abf152971f6d9cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_1.FBX using Guid(6be3c81e666e0d84abf152971f6d9cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcfc8921a7f4712efc40dfa7b44fe8d') in 0.873597 seconds
+  Import took 0.881386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_3.FBX
+  artifactKey: Guid(c2bc88361f4905542bad0d861929e38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_3.FBX using Guid(c2bc88361f4905542bad0d861929e38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c79d9d5249e05a7c88c243fa40186ac') in 0.891975 seconds
+  Import took 0.899708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_CableReel01_2.FBX
+  artifactKey: Guid(73bfec30255637541bced83515915c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_CableReel01_2.FBX using Guid(73bfec30255637541bced83515915c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066ece20c5060ba0e4a198e5ce8b3bdb') in 0.279443 seconds
+  Import took 0.287268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate03_1.FBX
+  artifactKey: Guid(3ec228eae82d89042baf1fa16dfad679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate03_1.FBX using Guid(3ec228eae82d89042baf1fa16dfad679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048c6b25e13a0b3064cfabb4d97cc5d6') in 0.822170 seconds
+  Import took 0.828622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_6.FBX
+  artifactKey: Guid(1c8bc6c2fe467d8469be2c1c6003d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_6.FBX using Guid(1c8bc6c2fe467d8469be2c1c6003d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c780991221b4363427b5708b4e29af') in 0.820490 seconds
+  Import took 0.828461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_5.FBX
+  artifactKey: Guid(12df51c39e857e34f96670864b606e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_5.FBX using Guid(12df51c39e857e34f96670864b606e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4a840942625c8f3e77cae7c7745b95') in 0.793536 seconds
+  Import took 0.800008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierTank01.FBX
+  artifactKey: Guid(8555c46fc8364d148878cc5d7deb942d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierTank01.FBX using Guid(8555c46fc8364d148878cc5d7deb942d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38d2d1c800114fb6812885dd11f4e81') in 0.222934 seconds
+  Import took 0.228684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate02_1.FBX
+  artifactKey: Guid(5b0aa61be92a31a4f9598d290b358c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate02_1.FBX using Guid(5b0aa61be92a31a4f9598d290b358c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a40963b4d6fae300b1271ee0bf1d7e') in 0.823144 seconds
+  Import took 0.829036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_4.FBX
+  artifactKey: Guid(61e3699e5d047474399fd3d50ec2e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_4.FBX using Guid(61e3699e5d047474399fd3d50ec2e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4561f2ddc98767bf72d1bb68e39968c0') in 0.831775 seconds
+  Import took 0.838551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Bed01_2.FBX
+  artifactKey: Guid(cffb49c5432fad44dbef8646a2e75244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Bed01_2.FBX using Guid(cffb49c5432fad44dbef8646a2e75244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b72bce48f9c6d6c5bf223193ce740b') in 0.242716 seconds
+  Import took 0.248576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_2.FBX
+  artifactKey: Guid(77f53e4435fe991428b0ddbc248910f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_2.FBX using Guid(77f53e4435fe991428b0ddbc248910f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370705c3fd0a58d08fa471e6861272f6') in 0.824474 seconds
+  Import took 0.830449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_CableReel01_1.FBX
+  artifactKey: Guid(2f0df28a47b94d340bab04765a5c903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_CableReel01_1.FBX using Guid(2f0df28a47b94d340bab04765a5c903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e4c29191a90629950435eba6f2ef4b') in 0.241449 seconds
+  Import took 0.247362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Guns/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx
+  artifactKey: Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx using Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cdc3ec49ea14d58d43217fe25ff0a2') in 0.077991 seconds
+  Import took 0.083916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_5.FBX
+  artifactKey: Guid(d65880f7624688b4d8b183fdb5d9f5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_5.FBX using Guid(d65880f7624688b4d8b183fdb5d9f5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985ce73388955c78bdb380864f6bc0bf') in 0.815466 seconds
+  Import took 0.822082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate02_2.FBX
+  artifactKey: Guid(0881916b9112c9849ba19b64bd957257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate02_2.FBX using Guid(0881916b9112c9849ba19b64bd957257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2795c0fb4cc4779031145f16f396f4fc') in 0.833493 seconds
+  Import took 0.839794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged
+  artifactKey: Guid(4309cbe6b5ae58c439e0eaaf004d0c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged using Guid(4309cbe6b5ae58c439e0eaaf004d0c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9904a35bfd590eee7f28f8d62346220') in 0.002698 seconds
+  Import took 0.008817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_5.FBX
+  artifactKey: Guid(befadfa378d3c954182bd9dbc741ddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_5.FBX using Guid(befadfa378d3c954182bd9dbc741ddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eedb99579fdb75c1ead3444355d9e49') in 0.918219 seconds
+  Import took 0.924537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged.prefab
+  artifactKey: Guid(49dd49784e4ee6048a9638d724c4d69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged.prefab using Guid(49dd49784e4ee6048a9638d724c4d69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a36e87a03c55175592a53eaad7b3e59') in 1.566958 seconds
+  Import took 1.572725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged_Desert.prefab
+  artifactKey: Guid(59c28a9a940ae5a43b0de6d070555685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged_Desert.prefab using Guid(59c28a9a940ae5a43b0de6d070555685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730e35dd93241d14a37ed00bdd402a58') in 1.133343 seconds
+  Import took 1.139833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged.prefab
+  artifactKey: Guid(179e47cb2aa08754eb744ad424629174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged.prefab using Guid(179e47cb2aa08754eb744ad424629174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf19c76f4b704c562cecad4d13de4e3') in 1.193500 seconds
+  Import took 1.201853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged_Black.prefab
+  artifactKey: Guid(8a68ece7bc385dc47aca5efc0796ef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged_Black.prefab using Guid(8a68ece7bc385dc47aca5efc0796ef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c61841a12a274c7f114a281c25ce64') in 1.313664 seconds
+  Import took 1.322158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair01_2.FBX
+  artifactKey: Guid(f6f83fba849cc4a469cf8c4a7a61b49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair01_2.FBX using Guid(f6f83fba849cc4a469cf8c4a7a61b49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5630b3514ddbae2132100968a0c89e') in 0.236048 seconds
+  Import took 0.242107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_2.FBX
+  artifactKey: Guid(f54a4cde11f0f724d8d307a7001da9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_2.FBX using Guid(f54a4cde11f0f724d8d307a7001da9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6ae4cb664dd15d784281714702db74') in 0.872555 seconds
+  Import took 0.879202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged_Camo.prefab
+  artifactKey: Guid(9625519b95f73734f91d5c4ccb5362a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged_Camo.prefab using Guid(9625519b95f73734f91d5c4ccb5362a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e87564c222a9f89a40ced7659b5f7b') in 1.243541 seconds
+  Import took 1.253234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete03_1.FBX
+  artifactKey: Guid(c12a8c3c56e85744facc4381a28e9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete03_1.FBX using Guid(c12a8c3c56e85744facc4381a28e9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e006520578163f85fb9e74df4f698efa') in 0.311506 seconds
+  Import took 0.321930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete03_2.FBX
+  artifactKey: Guid(0e2f5a47b59ad2a47a98864a8e99e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete03_2.FBX using Guid(0e2f5a47b59ad2a47a98864a8e99e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce85a262361f42f73aa87edd3de35689') in 0.312688 seconds
+  Import took 0.322402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierTank02.FBX
+  artifactKey: Guid(f8bd4bcb0096e8242b288e093cb9930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierTank02.FBX using Guid(f8bd4bcb0096e8242b288e093cb9930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992fc6dc31b458af8c6d178dba67f106') in 0.275422 seconds
+  Import took 0.284037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate02_3.FBX
+  artifactKey: Guid(2ac8856b7ef329346a7ef5033c585c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate02_3.FBX using Guid(2ac8856b7ef329346a7ef5033c585c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e810d2c93463da1aef2089272ebbb531') in 0.996520 seconds
+  Import took 1.003427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BasketballHoop01.FBX
+  artifactKey: Guid(d293876f84aba044db45451e9debfc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BasketballHoop01.FBX using Guid(d293876f84aba044db45451e9debfc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1132cb8c60b8a0ebcf83b67d9567c496') in 0.238179 seconds
+  Import took 0.246016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate03_2.FBX
+  artifactKey: Guid(155c838a39af04e4aaa938a2d270cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate03_2.FBX using Guid(155c838a39af04e4aaa938a2d270cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c2a891344faf7894a80b9f48939ff6') in 0.821840 seconds
+  Import took 0.831786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Guns/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx
+  artifactKey: Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx using Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f46bc126c33644e872fd6c3ac78753b') in 1.389809 seconds
+  Import took 1.397196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_3.FBX
+  artifactKey: Guid(bc9df7707e7b1a846b7469477e91d619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete02_3.FBX using Guid(bc9df7707e7b1a846b7469477e91d619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969e9e1d4eb37eaf0e6e05ec70c8f958') in 1.015589 seconds
+  Import took 1.023700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged_Desert.prefab
+  artifactKey: Guid(02d2e4becb378c644bc49e1abb5bac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged_Desert.prefab using Guid(02d2e4becb378c644bc49e1abb5bac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9e49af32ea887ea37e64fc54c22b41') in 1.210920 seconds
+  Import took 1.218461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged_Camo.prefab
+  artifactKey: Guid(878d7e1f1468ddc47991be832108b7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_L_Rigged_Camo.prefab using Guid(878d7e1f1468ddc47991be832108b7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8380d4f1d5a47b2c80c16a46944fa6d7') in 1.244766 seconds
+  Import took 1.252781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_3.FBX
+  artifactKey: Guid(467dd3c8030693b48ac9cefd25dad6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_3.FBX using Guid(467dd3c8030693b48ac9cefd25dad6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3858d9834b687ea19a89c465794b4da8') in 0.951537 seconds
+  Import took 0.959837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate01.FBX
+  artifactKey: Guid(937f540dd6de4f24c91c30b7ccd1bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate01.FBX using Guid(937f540dd6de4f24c91c30b7ccd1bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce66d6d75c58c49ab0ad4615da0392b') in 0.233146 seconds
+  Import took 0.239268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/RRFreelance
+  artifactKey: Guid(86c90c8cd95ef3041956af9fab8fdaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance using Guid(86c90c8cd95ef3041956af9fab8fdaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425d381ac1cee0a92fe266152861898d') in 0.003369 seconds
+  Import took 0.010252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate04_1.FBX
+  artifactKey: Guid(7bca68cd25c856e4782d47b78e3b48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate04_1.FBX using Guid(7bca68cd25c856e4782d47b78e3b48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1765e8b9c8c875885472321d883230') in 0.235434 seconds
+  Import took 0.241588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair02_1.FBX
+  artifactKey: Guid(0c71347ad9a153944b46175ce5b344d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair02_1.FBX using Guid(0c71347ad9a153944b46175ce5b344d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd70bfb0469f8889fe37f21978fffb4') in 0.248563 seconds
+  Import took 0.256561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_1.FBX
+  artifactKey: Guid(c9dff3165f956594ead510888971a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_1.FBX using Guid(c9dff3165f956594ead510888971a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c0c7194cd292ba3980d2198b9f0060') in 0.861959 seconds
+  Import took 0.869320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ContainerStairs01.FBX
+  artifactKey: Guid(157ecc7a7b90be34fb787b2e49d98753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_ContainerStairs01.FBX using Guid(157ecc7a7b90be34fb787b2e49d98753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26731b796f32501f4dcb67ac25b8b80') in 0.862356 seconds
+  Import took 0.870385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate03_3.FBX
+  artifactKey: Guid(631f230aba1dddc4a8b53ca7b2bdb765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Crate03_3.FBX using Guid(631f230aba1dddc4a8b53ca7b2bdb765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9af206884d392326f01eb5b21458a9') in 0.851025 seconds
+  Import took 0.857721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged_Black.prefab
+  artifactKey: Guid(c2efdec30f784b04ab1f5974642c74cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs/SK_Glove_R_Rigged_Black.prefab using Guid(c2efdec30f784b04ab1f5974642c74cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed20740e508f76a0b23f04ab78373f7') in 1.089200 seconds
+  Import took 1.096555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_6.FBX
+  artifactKey: Guid(facf3d7f5ebd6af49848dc4df96bdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete01_6.FBX using Guid(facf3d7f5ebd6af49848dc4df96bdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06efa6000605167692b5252bb9e36fcd') in 0.914711 seconds
+  Import took 0.920798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_4.FBX
+  artifactKey: Guid(8234464858ca58544ae88c7dcc7bf967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Container01_4.FBX using Guid(8234464858ca58544ae88c7dcc7bf967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bac3e2045e3c910d77bf7154961fc2') in 0.941821 seconds
+  Import took 0.949598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_4.FBX
+  artifactKey: Guid(893f89726952ac047a2ad7901215437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_4.FBX using Guid(893f89726952ac047a2ad7901215437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d814412bc9a004dc8fcaf2436230c6e') in 1.080617 seconds
+  Import took 1.088722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair01_1.FBX
+  artifactKey: Guid(f5cf54a921a06644fbf49d431e987509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair01_1.FBX using Guid(f5cf54a921a06644fbf49d431e987509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2832fba3f10222b093337e90db2b16ec') in 0.278882 seconds
+  Import took 0.286005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete03_3.FBX
+  artifactKey: Guid(db9457bb7595ec24bb3653295243e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierConcrete03_3.FBX using Guid(db9457bb7595ec24bb3653295243e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de201aa5fc9c76d28572506f14d8025') in 0.290145 seconds
+  Import took 0.296976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_2.FBX
+  artifactKey: Guid(4f8bebb4cedd5ce4c9bba73863b44601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_2.FBX using Guid(4f8bebb4cedd5ce4c9bba73863b44601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b38824d7c9ba788e73fbecdfb770a6') in 0.924622 seconds
+  Import took 0.931869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/RRFreelance/TacticalGloves_Rigged/Prefabs
+  artifactKey: Guid(1f8052de0b07cd146a6b285c2b3e1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RRFreelance/TacticalGloves_Rigged/Prefabs using Guid(1f8052de0b07cd146a6b285c2b3e1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6d20a3a998ad37d55fe040b3d63f06') in 0.002845 seconds
+  Import took 0.009525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair02_2.FBX
+  artifactKey: Guid(3cd2bf9b8b0a1db4b95323f96028e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Chair02_2.FBX using Guid(3cd2bf9b8b0a1db4b95323f96028e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21553e1057452312800254bb1b11f18b') in 0.248574 seconds
+  Import took 0.256317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Guns/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx
+  artifactKey: Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx using Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c462319d8604bef8b39eea46c67c06') in 0.313797 seconds
+  Import took 0.320089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_1.FBX
+  artifactKey: Guid(5c7fcdd245af3be43807a54c76e431b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_BarrierSand01_1.FBX using Guid(5c7fcdd245af3be43807a54c76e431b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66d465fda29022b8b776b78bada465d') in 0.835532 seconds
+  Import took 0.842997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Bed01_1.FBX
+  artifactKey: Guid(1e21763c0c0c953459614cea8ab9a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Miltary Assets/Meshes/Military Base/SM_Bed01_1.FBX using Guid(1e21763c0c0c953459614cea8ab9a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64230611487e4e8cd81d0ab936386560') in 0.236317 seconds
+  Import took 0.242850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.309670 seconds.
+  path: Assets/MyScenes/forestCamp/LightingData.asset
+  artifactKey: Guid(ad929a5c06914604e9fc3883f7c74aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/forestCamp/LightingData.asset using Guid(ad929a5c06914604e9fc3883f7c74aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314faef00e229fe4aa082f0cf9c273f9') in 0.008094 seconds
+  Import took 0.014091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022807 seconds.
+  path: Assets/MyScenes/forestCamp/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b059d18cb516dc34aa4f01df7ba5d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/forestCamp/Lightmap-0_comp_dir.png using Guid(b059d18cb516dc34aa4f01df7ba5d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f33904f91ecd83ea931c3b9c8d166d') in 0.092803 seconds
+  Import took 0.099040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/MyScenes/forestCamp/ReflectionProbe-0.exr
+  artifactKey: Guid(a2f2e7a2e2970574b8724d31e9a67ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/forestCamp/ReflectionProbe-0.exr using Guid(a2f2e7a2e2970574b8724d31e9a67ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e18c79a30556c63d7db620fced61e8') in 0.075224 seconds
+  Import took 0.082112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/MyScenes/forestCamp/Lightmap-0_comp_light.exr
+  artifactKey: Guid(b63ab0a74ab62914db47190269310119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/forestCamp/Lightmap-0_comp_light.exr using Guid(b63ab0a74ab62914db47190269310119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635586542248115c689eda9c016006ca') in 0.082359 seconds
+  Import took 0.092416 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
