@@ -12,6 +12,6 @@ public class InteractorEventDispatcher : MonoBehaviour
     void Awake()
     {
         var interactor = GetComponent<XRBaseInteractor>();
-        interactor.onSelectEnter.AddListener(interactable => { OnSelectedEnter.Invoke(interactable); } );
+        interactor.onSelectEntered.AddListener(interactable => { OnSelectedEnter.Invoke(interactable); } );
     }
 }

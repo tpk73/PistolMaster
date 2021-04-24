@@ -20,7 +20,7 @@ public class SocketTarget : MonoBehaviour
     {
         var interactable = GetComponent<XRBaseInteractable>();
 
-        interactable.onSelectEnter.AddListener(SelectedSwitch);
+        interactable.onSelectEntered.AddListener(SelectedSwitch);
     }
 
     public void SelectedSwitch(XRBaseInteractor interactor)

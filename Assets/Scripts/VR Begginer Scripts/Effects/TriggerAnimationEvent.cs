@@ -15,7 +15,7 @@ public class TriggerAnimationEvent : MonoBehaviour
     {
         m_TriggerID = Animator.StringToHash(TriggerName);
         var interactor = GetComponent<XRBaseInteractor>();
-        interactor.onSelectEnter.AddListener(TriggerAnim);
+        interactor.onSelectEntered.AddListener(TriggerAnim);
     }
 
     public void TriggerAnim(XRBaseInteractable interactable)

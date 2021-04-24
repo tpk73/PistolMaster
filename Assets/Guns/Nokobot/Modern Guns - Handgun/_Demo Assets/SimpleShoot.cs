@@ -28,17 +28,17 @@ public class SimpleShoot : MonoBehaviour
     public AudioClip noAmmo;
 
     public Magazine magazine;
-    public XRBaseInteractable socketInteractor;
+    public XRBaseInteractor socketInteractor;
     private bool hasSlide = true;
 
-    public void AddMagazine(XRBaseInteractor interactable)
+    public void AddMagazine(XRBaseInteractable interactable)
     {
         magazine = interactable.GetComponent<Magazine>();
         source.PlayOneShot(reload);
         hasSlide = false;
     }
 
-    public void RemoveMagazine(XRBaseInteractor interactable)
+    public void RemoveMagazine(XRBaseInteractable interactable)
     {
         magazine = null;
         source.PlayOneShot(reload);
@@ -56,8 +56,8 @@ public class SimpleShoot : MonoBehaviour
         if (gunAnimator == null)
             gunAnimator = GetComponentInChildren<Animator>();
 
-        socketInteractor.onSelectEnter.AddListener(AddMagazine);
-        socketInteractor.onSelectExit.AddListener(RemoveMagazine);
+        socketInteractor.onSelectEntered.AddListener(AddMagazine);
+        socketInteractor.onSelectExited.AddListener(RemoveMagazine);
     }
 
     /*

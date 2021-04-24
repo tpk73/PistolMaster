@@ -11,7 +11,7 @@ public class ActivateRotatingInteractor : MonoBehaviour
     void Start()
     {
         m_Interactor = GetComponent<XRBaseInteractor>();
-        m_Interactor.onSelectEnter.AddListener(Activated);
+        m_Interactor.onSelectEntered.AddListener(Activated);
     }
 
     void Activated(XRBaseInteractable interactable)
